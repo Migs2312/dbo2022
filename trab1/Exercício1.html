@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Exercício1</title>
+<style>
+table,th,td {border: 2px solid rgb(64, 96, 104);}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Alimentação Saudável para Girafas.</h1><br>
+        <p>As <b>Girafas</b> são animais lindos, mas do que se alimentam?<br><i><b>VAMOS DESCOBRIR</b></i></p>
+    </header><br><br><br>
+    <nav>
+        <ul>
+            <li>Frutas
+                <ol>
+                    <li>Banana</li>
+                    <li>Maçã</li>
+                    <li>Abacate</li>
+                </ol>
+            </li>
+        </ul><br>
+        <ul>
+            <li>Vegetais
+                <ol type="I">
+                    <li>Cebola</li>
+                    <li>Pimentão
+                    <ol type="a">
+                        <li>Verde</li>
+                        <li>Amarelo</li>
+                        <li>Vermelho</li>
+                    </ol>
+                    </li>
+                    <li>Tomate</li>
+                </ol>
+            </li>
+        </ul>
+        <table>
+            <caption>
+                Lucro por mês
+            </caption>
+            <thead>
+                <tr>
+                    <th><b>Mês</b></th>
+                    <th colspan="2"><b>Frutas</b></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td><b>Banana</b></td>
+                    <td><b>Maçã</b></td>
+                </tr>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>100</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>120</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>340</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table>
+    </nav>
+    <br><br><br><br>
+    <main>
+        Clique no botão<br>para conhecer a<br>página do IFRS:<br>
+        <a href="https://ifrs.edu.br/"><img src="./img/Button.png" alt="botão" width="120" height="120"></a>
+        <br><br><br><br>
+        <h2>AGORA CONTEMPLE A GIRAFA!!!</h2>
+        <figure>
+            <img src="./Giraffe.jpeg" alt="Girafa">
+            <figcaption>Um animal verdadeiramente majestoso!!!</figcaption>
+        </figure>
+    </main>
+    <footer>
+        <form>
+            <fieldset>
+                <legend>Agora uma pesquisa rápida...</legend><br>
+                <label for="n1">Insira seu nome:</label>
+                <input type="text" id="n1" required><br>
+                <input type="submit" value="Confirmar"><br>
+            </fieldset>
+            <fieldset>
+                Você gosta de girafas?<br>
+                <label for="c1">SIM</label>
+                <input type="radio" id="c1" name="c1" value="y" required><br>
+                <label for="c1,2">NÃO</label>
+                <input type="radio" id="c1,2" name="c1" value="n" required><br><br>
+                <label for="c2">Insira a sua foto preferida de girafas:</label>
+                <input type="file" id="c2" name="imag"><br><br>
+                <label for="c3">Em uma escala de 0 a 10, qual nota você daria para as girafas?</label><br>
+                0<input type="range" id="c3" min="0" max="10" value="5" name="nota">10<br><br>
+                Selecione os adjetivos que caracterizam as girafas de forma correta:<br>
+                <label for="c4,1">Bonitas</label>
+                <input type="checkbox" id="c4,1" name="c4" value="+1"><br>
+                <label for="c4,2">Maravilhosas</label>
+                <input type="checkbox" id="c4,2" name="c4" value="+1"><br>
+                <label for="c4,3">Feias</label>
+                <input type="checkbox" id="c4,3" name="c4" value="-1"><br>
+                <label for="c4,4">Inteligentes</label>
+                <input type="checkbox" id="c4,4" name="c4" value="+1"><br>
+                <label for="c4,5">Burras</label>
+                <input type="checkbox" id="c4,5" name="c4" value="-1"><br>
+                <input type="submit" value="Enviar"><br>
+            </fieldset>
+        </form><br>
+        E por fim, aqui um vídeo sobre girafas...<br>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/fc2I0I9mt04" allowfullscreen>
+        </iframe>
+    </footer>
+</body>
+</html>
